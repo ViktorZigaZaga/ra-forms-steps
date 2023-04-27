@@ -13,7 +13,7 @@ function Form({addWorkout, changedObj}) {
     }
 
     const onSubmit = (e) => {
-        e.preventDefault;
+        e.preventDefault();
         let workout;
         if(!Object.keys(changedObj).length) {
             workout = {
